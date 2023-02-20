@@ -4,23 +4,27 @@
   box-sizing:border-box 0;
 }
 
-nav{
+header{
   background-color: #add8e6;
+  padding: 2px;
+}
+
+nav{
   width: 100%;
   margin: auto;
-  padding: 10px;
 }
 
 .container{
-  display: flex;
-  flex-wrap: wrap;
+  width: 1170px;
+  margin: 0 auto;
 }
 
-.logo{
+.container-nav{
   display: flex;
   justify-content:space-between;
   background-color: #daa520;
   width: 60%;
+  padding: 5px;
   border: 1px dashed black;
 }
 
@@ -28,8 +32,10 @@ nav ul{
   list-style: none;
   display: flex;
   justify-content: center;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right:1px dashed black;
   width:70%;
+  margin: 0 auto;
 }
 
 nav ul li{
@@ -39,4 +45,77 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: black;
+}
+
+.container-jumbotron{
+  background-color: #00008b;
+  padding: 2.5%;
+  margin-top: 1%;
+}
+
+.jumbotron{
+  background-color: #ee82ee;
+  width:30% ;
+  padding: 10%;
+  margin: 0 auto;
+  border:1px dashed black;
+}
+
+.container-discord{
+  padding:2.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-discord.telematics{
+  background-color: #ffff;
+}
+
+.container-discord.voice{
+  background-color: #d3d3d3;
+}
+
+.container-discord.community{
+  background-color: #ffff;
+}
+
+.container-discord.reliability{
+  background-color: #d3d3d3;
+}
+
+
+.img{
+  background-color: #1e90ff;
+  width: 15%;
+  padding: 10%;
+  border:1px dashed #black;
+}
+
+.testo{
+  background-color: #ffc0cb;
+  width: 5%;
+  padding: 10%;
+  border:1px dashed black;
+}
+
+
+h1{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #add8e6;
+}
+
+p{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #ffc0cb;
+}
+
+
+.just-chillin{
+  background-color: #228b22;
+  width: 20%;
+  padding: 20%;
 }
