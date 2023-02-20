@@ -4,10 +4,11 @@
   box-sizing:border-box 0;
 }
 
-
 nav{
   background-color: #add8e6;
   width: 100%;
+  margin: auto;
+  padding: 10px;
 }
 
 .container{
@@ -20,15 +21,22 @@ nav{
   justify-content:space-between;
   background-color: #daa520;
   width: 60%;
+  border: 1px dashed black;
 }
 
 nav ul{
   list-style: none;
   display: flex;
-  
+  justify-content: center;
+  border: 1px dashed black;
+  width:70%;
+}
+
+nav ul li{
+  margin-left: 5%;
 }
 
 nav ul li a{
   text-decoration: none;
-  
+  color: black;
 }
