@@ -119,3 +119,37 @@ p{
   width: 20%;
   padding: 20%;
 }
+
+h2{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #add8e6;
+}
+
+.nav-footer ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #23272a;
+  padding: 10%;
+  list-style: none;
+}
+
+.nav-footer li{
+  background-color: #20B2AA;
+  width: 10%;
+  padding: 10%;
+  border:1px dashed black;
+}
+
+.nav-footer ul li a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
